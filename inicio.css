@@ -1,5 +1,25 @@
-p {color: greenyellow;}
+p {color: green;}
 
-h1{color: black;}
+#inicial {color: blue;}
 
 background-color: yellow;
+button {
+
+    background-color: red; /* Color inicial del botón */
+  
+    color: white;
+  
+    padding: px 0px;
+  
+    border: none;
+  
+    cursor: progress;
+  
+ 
+  }
+  #secundo {color: palevioletred;}
+  button:hover {
+  
+    background-color: yellowgreen; /* Color del botón cuando el ratón pasa por encima */
+  
+  }
