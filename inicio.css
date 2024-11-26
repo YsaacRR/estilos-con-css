@@ -7,19 +7,30 @@ button {
 
     background-color: red; /* Color inicial del botón */
   
-    color: white;
-  
+    color: gray;
     padding: px 0px;
-  
     border: none;
-  
     cursor: progress;
   
- 
   }
   #secundo {color: palevioletred;}
   button:hover {
   
     background-color: yellowgreen; /* Color del botón cuando el ratón pasa por encima */
-  
   }
+  
+
+
+  header {
+    display: flex;
+text-align: center;
+  }
+
+
+  header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  
+  header a:hover{ color: greenyellow;}
